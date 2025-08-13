@@ -1,6 +1,29 @@
 {
   "dependencies": {
     "dotenv": "^17.2.1",
-    "express": "^5.1.0"
-  }
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3"
+  },
+  "name": "server-event-ujikom",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADARIYA0/server-event-ujikom.git"
+  },
+  "author": "ADARIYA0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADARIYA0/server-event-ujikom/issues"
+  },
+  "homepage": "https://github.com/ADARIYA0/server-event-ujikom#readme",
+  "description": ""
 }
